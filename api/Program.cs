@@ -16,7 +16,7 @@ builder.Configuration
 string connectionString = builder.Configuration
 	.GetConnectionString("sqlServerDb");
 
-// Configure o banco de dados SQLite
+// Configure o banco de dados
 builder.Services
 	.AddDbContext<AppDbContext>(
 		options =>
